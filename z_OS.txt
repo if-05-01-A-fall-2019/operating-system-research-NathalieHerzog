@@ -1,0 +1,20 @@
+z/OS is a 64-bit OS developed by IBM.It`s described as an extremely scalable and secure high-performance operating system based on the
+64-bit z/Architecture. z/OS lays claim to being highly reliable for running mission-critical applications. The operating system supports Java-based applications
+and it can communicate directly via TCP/IP, including IPv6, and includes standard HTTP servers along with other common services such as 
+FTP, NFS, and CIFS/SMB.
+
+IBM's z/OS evolved from an operating system that could process a single program at a time to an operating system that can manage many 
+multi-tenant mainframe applications, each runningin protected memory spaces and offering varied performance goals.
+
+Mainframes with z/OS are typically used to run large, complex, mission-critical workloads for large enterprise organizations. Generally 
+mainframes are well-suited for tasks involving large-scale transaction processing. They can handle thousands of simultaneous users and 
+any applications accessing computing resources, manage databases in the terabyte size range and run busy high-bandwidth network
+communication. Such workloads often include real-time order entry and processing, financial transactions, payroll, inventory control, 
+manufacturing and production.
+
+- - - - - - -  -
+
+Some interesting features I found:
+- z/OS has built-in support for Parallel Sysplex clustering
+- nowadays it only runs in 64-bit mode, but application programmers can still use any addressing mode
+- Generation Data Group (GDG) is a special type of file used by z/OS
